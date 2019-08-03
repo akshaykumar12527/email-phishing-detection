@@ -60,7 +60,7 @@ def positive_sentiment_score(soup):
 	t,tok = text(soup)
 	return (TextBlob(t).polarity)*100
 
-w2v = gsm.KeyedVectors.load_word2vec_format('trained_model.bin', binary=True, limit=50000) 
+w2v = gsm.KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin.gz', binary=True, limit=50000) 
 EMAIL_EMOTIONS = ['urgent', 'greed', 'panic', 'fear', 'worry']
 
 CLONE_N = 30 
