@@ -1,2 +1,5 @@
 # email-phishing-detection
-phishing email detection
+Download trained model:
+
+"https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz"
+
