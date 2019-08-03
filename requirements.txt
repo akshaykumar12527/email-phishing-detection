@@ -1,0 +1,12 @@
+flask
+gensim
+numpy
+nltk
+pyspellchecker
+textblob
+scipy
+beautifulsoup4
+sockets
+whois
+google
+requests
